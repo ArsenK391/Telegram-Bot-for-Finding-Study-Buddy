@@ -1,0 +1,29 @@
+import os
+
+# Telegram 
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+
+# Database 
+DB_PATH: str = os.getenv("DB_PATH", "study_buddy.db")
+
+# Matching
+MAX_MATCHES: int = 5
+
+# Subjects catalogue 
+SUBJECTS: list[str] = [
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Biology",
+    "Computer Science",
+    "Machine Learning",
+    "Data Science",
+    "English",
+    "History",
+    "Economics",
+    "Philosophy",
+    "Literature",
+    "Statistics",
+    "Engineering",
+    "Medicine",
+]
